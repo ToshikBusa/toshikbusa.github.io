@@ -31,7 +31,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Bebas", serif;
 	font-weight: 400;
-	color: #fff; 
+	color: #a1a1a1; 
 }
 
 p {
@@ -76,7 +76,11 @@ header {
 		font-family: "Open Sans", sans-serif;
 		font-weight: 400;
 		font-size: 15px;
-		color: #afafaf;
+		color: #a1a1a1;
+
+		@include placeholder {
+			color: #afafaf;
+		}
 	}
 
 	.search-submit {
@@ -305,6 +309,7 @@ header {
 
 .slider-categories {
 	position: relative;
+	padding: 20px 0px;
 
 	.item {
 
@@ -354,21 +359,316 @@ header {
 	}
 }
 
+.title-block-products {
+	padding: 24px 0px;
+	background-image: url(../images/bg-title.jpg);
+	background-position: 50% 50%;
+	background-repeat: repeat;
+
+	h1 {
+		font-family: "Bebas", serif;
+		font-weight: 400;
+		font-size: 31px;
+		line-height: 33px;
+		color: #ffffff;
+		text-transform: uppercase;
+		margin: 0;
+		padding-left: 20px;
+	}
+}
+
+.content {
+	padding: 48px 0px 30px 0px;
+
+	.product {
+		box-shadow: 0px 0px 2px #e4e4e4;
+		padding-bottom: 30px;
+		border-bottom: 5px solid #3cc395;
+		border-radius: 3px;
+		display: block;
+		margin-bottom: 40px;
+
+		.image {
+			padding-bottom: 10px;
+
+			img {
+				display: block;
+				margin: 0 auto;
+			}
+		}
+
+		.title {
+			font-family: "Bebas", serif;
+			font-weight: 400;
+			font-size: 27px;
+			line-height: 30px;
+			color: #afafaf;
+			text-transform: uppercase;
+			margin: 0;
+			padding: 0px 20px 10px 20px;
+			text-align: center;
+		}
+
+		.wrap-price-buy {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+
+			.price {
+				font-family: "Bebas", serif;
+				font-weight: 400;
+				font-size: 27px;
+				line-height: 30px;
+				color: #afafaf;
+				text-transform: uppercase;
+				padding: 0px 15px;
+			}
+
+			
+		}
+	}
+}
+
+.btn-buy {
+	display: inline-block;
+	background-color: #3cc395;
+	font-family: "Bebas", serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 10px 10px;
+	border-radius: 2px;
+
+	&:hover {
+		background-color: transparent;
+		color: #3cc395;
+		transition: 1s;
+	}
+}
+
+.cart-page {
+	.btn-buy {
+		text-align: right;
+	}
+}
+
+footer {
+	padding: 40px 0px 20px 0px;
+	background-color: #3cc3b5;
+
+	.title {
+		font-family: "Bebas", serif;
+		font-weight: 400;
+		font-size: 27px;
+		line-height: 30px;
+		color: #ffffff;
+		text-transform: uppercase;
+		margin: 0px 0px 27px 0px;
+	}
+
+	.links {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+
+		li {
+			padding-bottom: 15px;
+			padding-left: 3px;
+
+			a {
+				font-family: "Open Sans", sans-serif;
+				font-weight: 400;
+				font-size: 15px;
+				color: #fff;
+			}
+		}
+	}
+}
+
+.copyright {
+	padding: 15px 0px;
+	background-color: #2da89b;
+
+	.copy {
+		display: block;
+		width: 100%;
+		text-align: center;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+		font-size: 15px;
+		color: #fff;
+		padding: 0px 20px;
+	}
+}
+
+.table-responsive {
+	tbody {
+		td {
+			font-family: "Open Sans", sans-serif;
+			font-weight: 700;
+			font-size: 15px;
+			color: #000;
+		}
+	}
+}
+
+.title-page {
+	padding: 40px 0px 0px 0px;
+}
+
+.pagination-wrap {
+	padding-bottom: 35px;
+
+	ul {
+		justify-content: center;
+
+		li {
+			margin-right: 15px;
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			a {
+				padding: 10px !important;
+				border: none;
+				font-family: "Bebas", serif;
+				font-weight: 400;
+				font-size: 20px !important;
+				color: #a1a1a1;
+				text-transform: uppercase;
+				border-radius: 4px;
+
+
+				&:hover {
+					background-color: #3cc3b5 !important;
+					border-color: #3cc3b5 !important;
+					color: #fff;
+					transition: 1s;
+				}
+			}
+
+			span {
+				padding: 10px !important;
+				font-family: "Bebas", serif;
+				font-weight: 400;
+				font-size: 20px !important;
+				border-radius: 4px;
+				background-color: #3cc395 !important;
+				border-color: #3cc395 !important;
+			}
+		}
+	}
+}
+
+.product-page {
+	.content {
+
+		h1 {
+			padding-bottom: 30px;
+		}
+
+		.list-styled {
+			li {
+				padding-bottom: 15px;
+			}
+		}
+
+		#base-price {
+			display: inline-block;
+			font-family: "Bebas", serif;
+			font-weight: 400;
+			font-size: 27px;
+			line-height: 30px;
+			color: #a1a1a1;
+			padding-left: 15px;
+			text-transform: uppercase;
+		}
+
+		.description {
+			display: block;
+			padding-bottom: 20px;
+		}
+
+		#product {
+			margin-bottom: 30px;
+
+			.col-input {
+				width: 60px;
+				display: inline-block;
+				margin: 0px 0px 20px 15px;
+			}
+
+			.add-to-cart-link {
+				width: 200px;
+				display: inline-block;
+				padding: 6px 15px;
+				font-family: "Bebas", serif;
+				font-weight: 400;
+				font-size: 19px;
+				line-height: 21px;
+				color: #fff;
+				background-color: #3cc395;
+				border-radius: 2px;
+				border: 2px solid #3cc395;
+
+				&:hover {
+					color: #3cc395;
+					background-color: #fff;
+					transition: 1s;
+				}
+			}
+
+		}
+
+		.thumbnails {
+			list-style: none;
+			a {
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
 .slick-prev {
 	position: absolute;
 	top: 50px;
-	left: -45px;
+	left: -70px;
 }
 
 .slick-next {
 	position: absolute;
-	right: -45px;
+	right: -70px;
     top: 50px;
 }
 
 .slick-arrow {
 	background-color: transparent;
 	border: none;
+}
+
+.btn-primary {
+	background-color: #3cc395;
+	color: #fff;
+	border-color: #3cc395;
+
+	&:hover {
+		background-color: transparent;
+		border-color: transparent;
+		color: #3cc395;
+		transition: 1s;
+	}
+}
+
+.modal-body {
+	img {
+		width: 90px;
+	}
 }
 
 @media only screen and (max-width : 480px) {
@@ -389,6 +689,18 @@ header {
 			.block-right {
 				padding-top: 40px;
 				width: 100%;
+			}
+		}
+	}
+
+	footer {
+		.title {
+			text-align: center;
+		}
+
+		.links {
+			li {
+				text-align: center;
 			}
 		}
 	}
@@ -428,3 +740,13 @@ header {
 
 }
 
+
+@media only screen and (max-width: 1060px) {
+	.slick-prev {
+		display: none;
+	}
+
+	.slick-next {
+		display: none;
+	}
+}
