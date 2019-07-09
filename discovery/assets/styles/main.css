@@ -2,14 +2,14 @@
 body {
   background-color: #fff;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
   color: #fff;
   -webkit-font-smoothing: antialized;
   -webkit-overflow-scrolling: touch; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", serif;
   font-weight: 900;
   color: #fff; }
 
@@ -20,10 +20,31 @@ p {
   text-align: center; }
 
 a {
-  color: #00e0d0; }
+  color: #fff; }
   a:hover, a:focus {
-    color: #413d4b;
-    text-decoration: none; }
+    color: #f0f0f0;
+    text-decoration: none;
+    transition: 1s; }
+
+#section1 .logo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 35px;
+  color: #fff; }
+#section1 h1 {
+  font-size: 253px; }
+#section1 .description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 38px; }
+#section1 .text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 25px; }
+#section1 .navbar-nav li a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px; }
 
 .pp-section {
   height: 100%;

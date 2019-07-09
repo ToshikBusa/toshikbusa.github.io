@@ -10,7 +10,7 @@
 body {
 	background-color: #fff;
 	font-family: "Roboto", sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 14px;
 	color: #fff;
 
@@ -19,7 +19,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Playfair Display", serif;
+	font-family: "Roboto", serif;
 	font-weight: 900;
 	color: #fff; 
 }
@@ -33,11 +33,47 @@ p {
 }
 
 a {
-	color: #00e0d0;
+	color: #fff;
 
 	&:hover, &:focus {
-		color: #413d4b;
+		color: #f0f0f0;
 		text-decoration: none;
+		transition: 1s;
+	}
+}
+
+#section1 {
+	.logo {
+		font-family: "Roboto", sans-serif;
+		font-weight: 900;
+		font-size: 35px;
+		color: #fff;
+	}
+
+	h1 {
+		font-size: 253px;
+	}
+
+	.description {
+		font-family: "Roboto", sans-serif;
+		font-weight: 300;
+		font-size: 38px;
+	}
+
+	.text {
+		font-family: "Roboto", sans-serif;
+		font-weight: 300;
+		font-size: 25px;
+	}
+
+	.navbar-nav {
+		li {
+			a {
+				font-family: "Roboto", sans-serif;
+				font-weight: 500;
+				font-size: 15px;
+			}
+		}
 	}
 }
 
