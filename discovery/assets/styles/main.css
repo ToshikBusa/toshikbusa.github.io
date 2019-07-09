@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Hammersmith+One|Playfair+Display:400,700,900|Roboto:300,400,900&display=swap");
+body {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  -webkit-font-smoothing: antialized;
+  -webkit-overflow-scrolling: touch; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  color: #fff; }
+
+p {
+  margin-bottom: 30px; }
+
+.centered {
+  text-align: center; }
+
+a {
+  color: #00e0d0; }
+  a:hover, a:focus {
+    color: #413d4b;
+    text-decoration: none; }
+
+/*# sourceMappingURL=main.css.map */
