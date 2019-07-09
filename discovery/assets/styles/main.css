@@ -44,7 +44,31 @@ a {
 #section1 .navbar-nav li a {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 15px; }
+  font-size: 15px;
+  text-transform: uppercase;
+  position: relative;
+  transition: 1s; }
+  #section1 .navbar-nav li a:hover {
+    transition: 1s; }
+    #section1 .navbar-nav li a:hover:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -10px;
+      height: 2px;
+      background-color: #767473; }
+#section1 .soc-links a {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 35px;
+  transition: 1s; }
+  #section1 .soc-links a:hover {
+    transform: rotate(360deg);
+    transition: 1s; }
+  #section1 .soc-links a:last-child {
+    margin-right: 0; }
 
 .pp-section {
   height: 100%;
