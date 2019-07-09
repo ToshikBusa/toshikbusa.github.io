@@ -1,4 +1,20 @@
+@import url("mfp-zoom-in.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap");
+@-ms-viewport {
+  width: 1300px; }
+@-webkit-viewport {
+  width: 1300px; }
+@-moz-viewport {
+  width: 1300px; }
+@-o-viewport {
+  width: 1300px; }
+@viewport {
+  width: 1300px; }
+* {
+  margin: 0;
+  padding: 0; }
+
 body {
   background-color: #fff;
   font-family: "Roboto", sans-serif;
@@ -16,8 +32,14 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-bottom: 30px; }
 
+.pp-tableCell {
+  vertical-align: top; }
+
 .centered {
   text-align: center; }
+
+.wrapper {
+  padding: 0px 70px; }
 
 a {
   color: #fff; }
@@ -32,7 +54,7 @@ a {
   font-size: 35px;
   color: #fff; }
 #section1 h1 {
-  font-size: 253px; }
+  font-size: 230px; }
 #section1 .description {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -70,6 +92,23 @@ a {
   #section1 .soc-links a:last-child {
     margin-right: 0; }
 
+#section2 .title {
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-size: 35px;
+  color: #1d1d1d; }
+#section2 h2 {
+  font-size: 220px;
+  color: #1d1d1d; }
+#section2 .content {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: #1d1d1d; }
+#section2 .image-section img {
+  display: block;
+  width: 100%; }
+
 .pp-section {
   height: 100%;
   position: absolute;
@@ -105,7 +144,7 @@ a {
 
 .pp-tableCell {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: top;
   width: 100%;
   height: 100%; }
 

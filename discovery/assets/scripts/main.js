@@ -20,8 +20,10 @@ $(document).ready(function() {
     $('#pagepiling').pagepiling({
         verticalCentered: true,
         css3: false,
+        anchors: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6'],
+        menu: '#myMenu',
         onLeave: function (index, nextIndex, direction) {
-            
+
             if (nextIndex == 4) {
                 $('#pp-nav').fadeOut();
             }
