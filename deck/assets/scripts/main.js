@@ -13,10 +13,19 @@ $(document).ready(function() {
 		slidesToScroll: 1
 	});
 
-    $('#posts').masonry({
-      // options
-      itemSelector: '.col-lg-4',
-      percentPosition: true
-    });
+    if ($(window).width() >= '768'){
+        $("#post-list").sticky({
+            topSpacing: 40,
+            bottomSpacing: 229
+        });
+        $('#posts').masonry({
+          itemSelector: '.col-lg-4',
+          percentPosition: true
+        });
 
+        $('#category').masonry({
+          itemSelector: '.col-lg-6',
+          percentPosition: true
+        });
+    }
 });
