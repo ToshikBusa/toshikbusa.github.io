@@ -18,7 +18,7 @@ $(document).ready(function() {
             topSpacing: 40,
             bottomSpacing: 229
         });
-        $('#posts').masonry({
+        $('#posts-list').masonry({
           itemSelector: '.col-lg-4',
           percentPosition: true
         });
