@@ -112,6 +112,48 @@ body > header {
       font-size: 18px;
       color: #1d1f24; }
 
+.post-page .head-content {
+  padding: 30px 0px;
+  background-color: #f9fafc; }
+  .post-page .head-content h1 {
+    font-size: 60px;
+    padding: 0px 30px;
+    text-transform: uppercase; }
+  .post-page .head-content .autor {
+    padding: 30px 30px; }
+    .post-page .head-content .autor .image {
+      display: inline-block; }
+      .post-page .head-content .autor .image img {
+        display: inline-block;
+        border-radius: 50%;
+        margin-right: 15px; }
+    .post-page .head-content .autor .link {
+      display: inline-block;
+      vertical-align: middle;
+      font-family: "Oswald", sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      color: #ff565c;
+      text-transform: uppercase;
+      border-bottom: 1px solid transparent;
+      text-decoration: none;
+      transition: 1s; }
+      .post-page .head-content .autor .link:hover {
+        border-bottom: 1px solid #ff565c;
+        transition: 1s; }
+.post-page .content {
+  background-color: #fff; }
+  .post-page .content h2 {
+    padding-bottom: 30px; }
+  .post-page .content .description {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: rgba(29, 31, 36, 0.5); }
+  .post-page .content img {
+    display: block;
+    padding: 20px 0px;
+    width: 100%; }
+
 footer {
   padding: 40px 0px 20px 0px;
   background-color: #1d1f24; }
@@ -232,5 +274,9 @@ footer {
       .category-page .content .list-posts li a:hover {
         color: rgba(29, 31, 36, 0.5);
         transition: 1s; }
+
+@media only screen and (max-width: 480px) {
+  .post-page .head-content h1 {
+    font-size: 30px; } }
 
 /*# sourceMappingURL=main.css.map */

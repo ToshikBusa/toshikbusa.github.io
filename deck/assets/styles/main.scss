@@ -172,6 +172,70 @@ body > header {
 	}
 }
 
+.post-page {
+	.head-content {
+		padding: 30px 0px;
+		background-color: #f9fafc;
+
+		h1 {
+			font-size: 60px;
+			padding: 0px 30px;
+			text-transform: uppercase;
+		}
+
+		.autor {
+			padding: 30px 30px;
+
+			.image {
+				display: inline-block;
+				img {
+					display: inline-block;
+					border-radius: 50%;
+					margin-right: 15px;
+				}
+			}
+
+			.link {
+				display: inline-block;
+				vertical-align: middle;
+				font-family: "Oswald", sans-serif;
+				font-weight: 600;
+				font-size: 14px;
+				color: #ff565c;
+				text-transform: uppercase;
+				border-bottom: 1px solid transparent;
+				text-decoration: none;
+				transition: 1s;
+
+				&:hover {
+					border-bottom: 1px solid #ff565c;
+					transition: 1s;
+				}
+			}
+		}
+	}
+
+	.content {
+		background-color: #fff;
+
+		h2 {
+			padding-bottom: 30px;
+		}
+
+		.description {
+			font-family: "Lato", sans-serif;
+			font-weight: 400;
+			color: rgba(29, 31, 36, .5);
+		}
+
+		img {
+			display: block;
+			padding: 20px 0px;
+			width: 100%;
+		}
+	}
+}
+
 footer {
 	padding: 40px 0px 20px 0px;
 	background-color: #1d1f24;
@@ -338,7 +402,14 @@ footer {
 }
 
 @media only screen and (max-width : 480px) {
+	.post-page {
+		.head-content {
 
+			h1 {
+				font-size: 30px;
+			}
+		}
+	}
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
