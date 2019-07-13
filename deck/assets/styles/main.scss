@@ -121,6 +121,14 @@ body > header {
 	}
 }
 
+.related-articles {
+	h3 {
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 30px;
+	}
+}
+
 .content {
 	padding: 42px 0px 0px 0px;
 	background-color: #f9fafc;
@@ -232,6 +240,94 @@ body > header {
 			display: block;
 			padding: 20px 0px;
 			width: 100%;
+		}
+	}
+
+	.reviews {
+		background-color: #f9fafc;
+		padding: 80px 0px;
+
+		.list-reviews {
+			.item {
+				display: block;
+				padding-bottom: 40px;
+				border-bottom: 1px solid #e9e9e9;
+				margin-bottom: 40px;
+
+				.image {
+					display: inline-block;
+					margin-right: 15px;
+
+					img {
+						border-radius: 50%;
+					}
+				}
+
+				.author {
+					display: inline-block;
+				}
+
+				.top-line {
+					.author {
+						padding-bottom: 20px;
+						a.link {
+							font-family: "Lato", sans-serif;
+							font-weight: 500;
+							font-size: 21px;
+							color: #1d1f24;
+						}
+					}
+
+					.data-review {
+						float: right;
+						font-family: "Lato", sans-serif;
+						font-weight: 400;
+						font-size: 14px;
+						color: rgba(29, 31, 36, .4);
+					}
+				}
+
+				.bottom-line {
+					padding-left: 63px;
+					font-family: "Lato", sans-serif;
+					font-weight: 400;
+					font-size: 14px;
+					color: rgba(29, 31, 36, .6);
+				}
+			}
+		}
+
+		.wrapper-form {
+			form {
+				position: relative;
+
+				textarea {
+					padding: 30px 20px 50px 20px;
+					width: 100%;
+					font-family: "Lato", sans-serif;
+					font-weight: 400;
+					font-size: 16px;
+					border: none;
+					color: rgb(29, 31, 36);
+
+					@include placeholder {
+						color: rgb(29, 31, 36);
+					}
+				}
+
+				.btn-submit {
+					position: absolute;
+					bottom: 40px;
+					right: 40px;
+					background-color: transparent;
+					border: none;
+					text-transform: uppercase;
+					color: #ff565c;
+					font-family: "Oswald", sans-serif;
+					font-weight: 500;
+					font-size: 14px;
+				}
+			}
 		}
 	}
 }
