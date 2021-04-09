@@ -374,10 +374,12 @@ footer {
     padding: 20px 0px; }
     footer .social-links a {
       display: inline-block;
-      margin-right: 15px; }
+      margin-right: 35px; }
+      footer .social-links a:last-child {
+        margin: 0; }
       footer .social-links a img {
-        width: 32px;
-        height: 32px;
+        width: 40px;
+        height: 40px;
         transition: 0.4s; }
       footer .social-links a:hover img {
         transform: scale(1.1);
