@@ -1913,7 +1913,7 @@
             if (this.core.s.showThumbByDefault) {
                 setTimeout(function(){
                     _this.core.$outer.addClass('lg-thumb-open');
-                }, 700);
+                }, 400);
             }
 
             if (this.core.s.pullCaptionUp) {

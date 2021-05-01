@@ -11,7 +11,7 @@ html {
 body {
   background-color: transparent;
   font-family: 'Candara';
-  font-weight: 700; }
+  font-weight: 400; }
 
 h1 {
   font-size: 2rem;
@@ -21,35 +21,35 @@ h2 {
   color: #222222;
   font-family: "Candara", Sans-serif;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.3em; }
 
 h3 {
   color: #222222;
   font-family: "Candara", Sans-serif;
   font-size: 44px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.3em; }
 
 h4 {
   color: #222222;
   font-family: "Candara", Sans-serif;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.3em; }
 
 h5 {
   color: #222222;
   font-family: "Candara", Sans-serif;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.3em; }
 
 h6 {
   color: #222222;
   font-family: "Candara", Sans-serif;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.3em; }
 
 p {
@@ -141,7 +141,7 @@ p {
         display: inline-block;
         font-family: "Candara", Sans-serif;
         font-size: 48px;
-        font-weight: 700;
+        font-weight: 400;
         line-height: 1.3em;
         color: #818B8D;
         opacity: 1;
@@ -187,14 +187,14 @@ header {
     color: #fff;
     font-family: "Candara", Sans-serif;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 1.4em;
     padding-bottom: 15px; }
   .contact-address .phone {
     display: inline-block;
     font-family: "Candara", Sans-serif;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 1em;
     letter-spacing: 0px;
     color: #fff;
@@ -212,13 +212,13 @@ header {
   color: #FFFFFF;
   font-family: "Candara", Sans-serif;
   font-size: 55px;
-  font-weight: 700; }
+  font-weight: 400; }
 
 .description-s1 {
   color: #FFFFFF;
   font-family: "Candara", Sans-serif;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1.4em; }
 
 .address-s1 {
@@ -255,7 +255,7 @@ header {
     padding-left: 30%;
     color: #818B8D;
     font-size: 24px;
-    font-weight: bold; }
+    font-weight: normal; }
 
 .section-services {
   padding-bottom: 50px; }
@@ -278,7 +278,7 @@ header {
       text-transform: uppercase;
       color: #020202;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: normal;
       font-size: 18px;
       transition: 0.3s; }
       .section-services .text-wrapper .link-services:hover {
@@ -297,7 +297,7 @@ header {
     padding-bottom: 30px;
     color: #818B8D;
     font-size: 24px;
-    font-weight: bold; }
+    font-weight: normal; }
 
 .section-portfolio a {
   text-decoration: none; }
@@ -312,7 +312,7 @@ header {
   padding-top: 25px;
   color: #020202;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.1em; }
 
 .slick-prev.pull-left.slick-arrow {
@@ -358,13 +358,13 @@ footer {
     footer .text-wrapper .title-footer {
       color: #FFFFFF;
       font-size: 48px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: 1.3em;
       padding-bottom: 20px; }
     footer .text-wrapper .f-description {
       color: #818B8D;
       font-size: 24px;
-      font-weight: bold;
+      font-weight: normal;
       line-height: 1.4em; }
   footer .copyright {
     padding: 30px 0px;
@@ -399,22 +399,22 @@ footer {
     padding: 30px 0px;
     color: #818B8D;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase; }
   .main-content-inner h1 {
     color: #222222;
     font-size: 64px;
-    font-weight: 700;
+    font-weight: 400;
     padding-bottom: 30px; }
   .main-content-inner h2 {
     color: #222222;
     font-size: 64px;
-    font-weight: 700;
+    font-weight: 400;
     padding-bottom: 30px; }
   .main-content-inner .subtitle-page {
     color: #818B8D;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 400;
     padding-bottom: 50px; }
   .main-content-inner .item-port {
     padding-bottom: 40px; }
@@ -429,13 +429,13 @@ footer {
       text-decoration: none;
       color: #222222;
       font-size: 24px;
-      font-weight: 700; }
+      font-weight: 400; }
     .main-content-inner .item-port .subtitle {
       display: block;
       text-decoration: none;
       color: #818b8d;
       font-size: 18px;
-      font-weight: 700; }
+      font-weight: 400; }
 
 form {
   padding: 50px 0px; }
@@ -443,7 +443,7 @@ form {
     display: block;
     color: #818B8D;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
     line-height: 1.2em; }
   form input {
@@ -456,11 +456,11 @@ form {
     margin-bottom: 50px;
     color: #020202;
     font-size: 18px;
-    font-weight: 700; }
+    font-weight: 400; }
     form input::placeholder {
       color: #020202;
       font-size: 18px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: 1.2em; }
   form textarea {
     width: 100%;
@@ -470,28 +470,38 @@ form {
     outline: none;
     color: #020202;
     font-size: 18px;
-    font-weight: 700; }
+    font-weight: 400; }
     form textarea::placeholder {
       color: #020202;
       font-size: 18px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: 1.2em; }
 
-.item-service {
-  padding: 50px;
-  background-color: #F6F7F7;
+.item-service-wr {
   margin-bottom: 50px; }
+
+.item-service {
+  height: 100%;
+  padding: 50px;
+  background-color: #F6F7F7; }
   .item-service .img-service {
     margin-bottom: 27px; }
   .item-service .name-service {
     color: #222222;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 27px; }
   .item-service .description-service {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
     color: #818b8d; }
+  .item-service .link-more-wr {
+    padding-top: 20px; }
+    .item-service .link-more-wr .link-more {
+      color: #000;
+      text-decoration: none; }
+      .item-service .link-more-wr .link-more:hover {
+        text-decoration: underline; }
 
 @media (max-width: 1024px) {
   .main-content-inner h1 {

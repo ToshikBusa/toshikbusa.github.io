@@ -4,7 +4,7 @@
 @font-face {
   font-family: 'lg';
   src: url("../fonts/lg.ttf?22t19m") format("truetype"), url("../fonts/lg.woff?22t19m") format("woff"), url("../fonts/lg.svg?22t19m#lg") format("svg");
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
   font-display: block;
 }
@@ -13,7 +13,7 @@
   font-family: 'lg' !important;
   speak: never;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
@@ -210,7 +210,7 @@
 .lg-sub-html h4 {
   margin: 0;
   font-size: 13px;
-  font-weight: bold;
+  font-weight: normal;
 }
 .lg-sub-html p {
   font-size: 12px;

@@ -19,7 +19,7 @@ html {
 body {
   background-color: transparent;
   font-family: 'Candara';
-  font-weight: 700;
+  font-weight: 400;
 }
 
 h1 {
@@ -31,7 +31,7 @@ h2 {
   color: #222222;
   font-family: "Candara", Sans-serif;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.3em;
 }
 
@@ -39,7 +39,7 @@ h3 {
   color: #222222;
   font-family: "Candara", Sans-serif;
   font-size: 44px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.3em;
 }
 
@@ -47,7 +47,7 @@ h4 {
   color: #222222;
   font-family: "Candara", Sans-serif;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.3em;
 }
 
@@ -55,7 +55,7 @@ h5 {
   color: #222222;
   font-family: "Candara", Sans-serif;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.3em;
 }
 
@@ -63,7 +63,7 @@ h6 {
   color: #222222;
   font-family: "Candara", Sans-serif;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.3em;
 }
 
@@ -185,7 +185,7 @@ p {
         display: inline-block;
         font-family: "Candara", Sans-serif;
         font-size: 48px;
-        font-weight: 700;
+        font-weight: 400;
         line-height: 1.3em;
         color: #818B8D;
         opacity: 1;
@@ -253,7 +253,7 @@ header {
     color: #fff;
     font-family: "Candara", Sans-serif;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 1.4em;
     padding-bottom: 15px;
   }
@@ -262,7 +262,7 @@ header {
     display: inline-block;
     font-family: "Candara", Sans-serif;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 1em;
     letter-spacing: 0px;
     color: #fff;
@@ -284,14 +284,14 @@ header {
   color: #FFFFFF;
   font-family: "Candara", Sans-serif;
   font-size: 55px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .description-s1 {
   color: #FFFFFF;
   font-family: "Candara", Sans-serif;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1.4em;
 }
 
@@ -336,7 +336,7 @@ header {
     padding-left: 30%;
     color: #818B8D;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: normal;
   }
 }
 
@@ -367,7 +367,7 @@ header {
       text-transform: uppercase;
       color: #020202;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: normal;
       font-size: 18px;
       transition: 0.3s;
 
@@ -396,7 +396,7 @@ header {
     padding-bottom: 30px;
     color: #818B8D;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: normal;
   }
 }
 
@@ -420,7 +420,7 @@ header {
     padding-top: 25px;
     color: #020202;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.1em;
   }
 }
@@ -486,7 +486,7 @@ footer {
     .title-footer {
       color: #FFFFFF;
       font-size: 48px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: 1.3em;
       padding-bottom: 20px;
     }
@@ -494,7 +494,7 @@ footer {
     .f-description {
       color: #818B8D;
       font-size: 24px;
-      font-weight: bold;
+      font-weight: normal;
       line-height: 1.4em;
     }
   }
@@ -550,28 +550,28 @@ footer {
     padding: 30px 0px;
     color: #818B8D;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
   }
 
   h1 {
     color: #222222;
     font-size: 64px;
-    font-weight: 700;
+    font-weight: 400;
     padding-bottom: 30px;
   }
 
   h2 {
     color: #222222;
     font-size: 64px;
-    font-weight: 700;
+    font-weight: 400;
     padding-bottom: 30px;
   }
 
   .subtitle-page {
     color: #818B8D;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 400;
     padding-bottom: 50px;
   }
 
@@ -593,7 +593,7 @@ footer {
       text-decoration: none;
       color: #222222;
       font-size: 24px;
-      font-weight: 700;
+      font-weight: 400;
     }
 
     .subtitle {
@@ -601,7 +601,7 @@ footer {
       text-decoration: none;
       color: #818b8d;
       font-size: 18px;
-      font-weight: 700;
+      font-weight: 400;
     }
   }
 }
@@ -613,7 +613,7 @@ form {
     display: block;
     color: #818B8D;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
     line-height: 1.2em;
   }
@@ -628,12 +628,12 @@ form {
     margin-bottom: 50px;
     color: #020202;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
 
     &::placeholder {
       color: #020202;
       font-size: 18px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: 1.2em;
     }
   }
@@ -646,21 +646,25 @@ form {
     outline: none;
     color: #020202;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
 
     &::placeholder {
       color: #020202;
       font-size: 18px;
-      font-weight: 700;
+      font-weight: 400;
       line-height: 1.2em;
     }
   }
 }
 
+.item-service-wr {
+  margin-bottom: 50px;
+}
+
 .item-service {
+  height: 100%;
   padding: 50px;
   background-color: #F6F7F7;
-  margin-bottom: 50px;
 
   .img-service {
     margin-bottom: 27px;
@@ -669,14 +673,27 @@ form {
   .name-service {
     color: #222222;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 27px;
   }
 
   .description-service {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
     color: #818b8d;
+  }
+
+  .link-more-wr {
+    padding-top: 20px;
+
+    .link-more {
+      color: #000;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 
